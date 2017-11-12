@@ -1,0 +1,111 @@
+body {
+  background-image: url(background.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 120px;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-menu-div {
+  display: block;
+  color: 'red';
+}
+
+.menu {
+  margin: 0;
+  margin-left: -15px;
+  margin-top: 28px;
+  text-align: center;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  list-style-type: none;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu li {
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 2px black
+}
+
+.menu-button {
+  background-color: rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  width: 100%;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  font-size: 35px;
+}
+
+.header-logo {
+  width: 80px;
+  cursor: pointer;
+}
+.main-logo {
+  margin-top: 80px;
+  width: 40%;
+  -webkit-filter: drop-shadow( 10px 10px 10px #000000 ); 
+  filter: drop-shadow( 10px 10px 10px #000000 );
+}
+
+.member-card {
+  box-shadow: 0px 2px 2px 0px black;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.84);
+  padding: 20px;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+.content-box {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 2px 2px 0px black;
+}
+
+.card-list {
+  box-shadow: inset 2px 1px 1px 2px rgba(0, 0, 0, 0.63);
+  background-color: rgba(0, 0, 0, 0.79);
+  color: white;
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+  list-style-type: none;
+}
+
+.game-card {
+  display: none;
+}
+
+.sword {
+  background-image: url(sword.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
